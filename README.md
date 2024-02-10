@@ -1,12 +1,123 @@
-- 👋 Hi, I’m @Moonlunitaa
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+div {
 
-<!---
-Moonlunitaa/Moonlunitaa is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+
+
+
+h1 {
+
+    padding: 10px;
+
+    color: #711DB0;
+
+}
+
+
+
+
+
+
+
+button {
+
+    color: brown;
+
+    width: 80px;
+
+    height: 40px;
+
+    border: 3px solid #711DB0;
+
+    border-radius: 10px;
+
+    background-color: transparent;
+
+    font-size: xx-large;
+
+    
+
+}
+
+
+
+#Si {
+
+    grid-row:  5;
+
+    grid-column: 5;
+
+}
+
+
+
+#No {
+
+    grid-row: 5;
+
+    grid-column: 6;
+
+    
+
+}
+
+
+
+section {
+
+    display: grid;
+
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+
+    width: 1200px;
+
+    height: 600px;
+
+    align-items: center;
+
+    justify-items: center;
+
+}
+
+
+
+body {
+
+    max-width: 1200px;
+
+    max-height: 673px;
+
+    margin: 0 auto;
+
+    background-image: url(/foto/pngtree-landscapes-wallpaper-images-picture-image_3021437.jpg);
+
+    background-repeat: no-repeat; 
+
+    background-position: center center; 
+
+     background-size: cover;
+
+    
+
+}
+
+
+
+p {
+
+    font-size: xx-large;
+
+    justify-content: center;
+
+    color: pink;
+
+}
